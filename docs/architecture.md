@@ -17,6 +17,7 @@
 
 ## Load estimate for 1 million registered users
 
+
 Assumptions: 10% daily active users = 100,000 DAU; each active user makes 50 reads and creates 1 note per day; each note and basic metadata average 2 KB; 365 days/year; average traffic is distributed across 86,400 seconds/day; peak is 5 times average. Estimates exclude indexes, replicas, backups, attachments, and protocol overhead.
 
 - **Reads:** 100,000 × 50 = 5,000,000 reads/day. 5,000,000 / 86,400 ≈ **58 average reads/second**, or **290 peak reads/second** at 5×.
