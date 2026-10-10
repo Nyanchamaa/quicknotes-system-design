@@ -18,6 +18,7 @@
 
 ## Create note
 
+
 Request: `POST /v1/notes`, with a valid bearer token and `Content-Type: application/json`.
 
 ```json
