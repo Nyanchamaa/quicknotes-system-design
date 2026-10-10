@@ -9,6 +9,7 @@
 
 ## Relationships
 
+
 One user can own many notes (one-to-many) and create many tags (one-to-many). Notes and tags are many-to-many: each note can have multiple tags, and a tag can be used on multiple notes. `note_tags` is the join table representing this relationship and its composite key prevents duplicate associations.
 
 ## SQLite schema
