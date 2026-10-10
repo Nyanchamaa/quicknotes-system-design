@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuickNotes — API Client</title>
+<link rel="stylesheet" href="style.css">
+<script src="api.js" defer></script>
+</head>
+<body><main class="container">
+<header><p class="eyebrow">API CLIENT DEMO</p><h1>QuickNotes</h1><p>Load, create, and delete notes using JSONPlaceholder.</p></header>
+<section class="panel"><div class="section-heading"><h2>Your notes</h2><button id="load-btn" type="button">Load notes</button></div>
+<p id="status" class="status" role="status" aria-live="polite">Ready. Select “Load notes” to fetch notes.</p>
+<ul id="notes-list" class="notes-list" aria-label="Notes"></ul></section>
+<section class="panel"><h2>Create a note</h2><form id="note-form" novalidate>
+<div class="field"><label for="title-input">Title *</label><input id="title-input" name="title" type="text" maxlength="100" required><small>Required, maximum 100 characters.</small></div>
+<div class="field"><label for="body-input">Note body (optional)</label><textarea id="body-input" name="body" rows="4"></textarea></div>
+<button id="submit-btn" type="submit">Create note</button></form></section>
+<footer>JSONPlaceholder simulates POST and DELETE; changes are not persisted by the server.</footer>
+</main></body></html>
