@@ -96,7 +96,6 @@ async function createNote(event) {
   }
 }
 
-
 async function deleteNote(id, button) {
   button.disabled = true;
   setStatus('Deleting note...', 'loading');
