@@ -115,7 +115,6 @@ async function deleteNote(id, button) {
   }
 }
 
-
 loadButton.addEventListener('click', loadNotes);
 noteForm.addEventListener('submit', createNote);
 renderNotes(notes);
