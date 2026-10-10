@@ -2,7 +2,6 @@
 
 QuickNotes is a notes-app API client prototype and system-design capstone. The browser client demonstrates GET, POST, and DELETE against the JSONPlaceholder practice API. The documents describe a production REST API, relational data model, and architecture for a service with one million registered users.
 
-
 **Important:** JSONPlaceholder is a mock API. POST and DELETE are simulated and do not persist changes on its server. The client updates its in-memory list so the page reflects those actions until reload.
 
 
